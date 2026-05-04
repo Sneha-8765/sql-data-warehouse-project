@@ -3,18 +3,42 @@ Building a modern dataware house with sql sever includingETL process ,Data Model
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a datawarehouse to generating actionable insights.designed as a portfolio project highlight industry best practices in data engineering and analytics 
 
 
-🚀 Project Goals
+##🚀 Project Goals 
 Learn real-world Data Engineering concepts by building a Data Warehouse.
 Practice SQL Server for ETL, transformation, and analytics.
 Understand how raw business data is converted into actionable insights.
 Build portfolio-ready project experience in Data Engineering / Data Analytics.
 
-🏗️ Data Engineering: Building the Data Warehouse
-Objective
+##Bronze Layer – Source System Analysis
+                 Coding: Data Integration
+                 Validation: Data Completeness and Schema Check 
+                 Docs And verification: Data documenting and versioning in git 
+
+Before ingesting data into the bronze layer, source systems were analyzed to understand:
+
+*Business Context
+Data ownership and stakeholders
+Supported business processes
+Available source documentation
+Source data model / catalog
+**Technical Assessment
+Source storage technology
+ Integration/extraction methods
+Authentication / access requirements
+****Extraction Planning
+Full vs Incremental load strategy
+Historical data availability
+Expected data volume / extract size
+Source system performance considerations
+
+Note: In this project, CSV files are used as source inputs to simulate real-world ERP/CRM source system ingestion.
+
+##🏗️ Data Engineering: Building the Data Warehouse
+#Objective
 
 Develop a modern data warehouse using SQL Server to consolidate sales data and prepare it for analytical reporting.
 
-Specifications
+##Specifications
 Import data from multiple source systems (ERP & CRM CSV files)
 Clean and transform raw data before loading
 Integrate data into an analytical data model
